@@ -1,7 +1,5 @@
-export default function footer () {
-    return (<section 
-    id="contactme"
-    class="footer">
+export default function Footer () {
+    return (<section>
         <h2>Contact Me</h2>
         <nav>
             <ul>
@@ -14,4 +12,4 @@ export default function footer () {
             </ul>
           </nav>
       </section>
-)};
+)}; 
