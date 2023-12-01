@@ -1,14 +1,18 @@
-import React from 'react';
+import Form from 'react-bootstrap/Form';
 
-export default function Contact() {
-    return(
-      <div className="mb-3">
-      <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-      <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-    <div className="mb-3">
-      <label htmlFor="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-      <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    </div>
-    )
-};
+function Contact() {
+  return (
+    <Form>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Message!</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+    </Form>
+  );
+}
+
+export default Contact;

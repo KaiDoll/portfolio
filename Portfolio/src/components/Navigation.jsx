@@ -1,51 +1,54 @@
-import React from 'react';
-function Navigation ({ currentPage, handlePageChange }) {
+import { Link, useLocation } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
+
+function Navigation () {
+  const currentPage = useLocation().pathname;
+
     return (
-      <ul className="nav nav-tabs">
+      <>
+
+      <Nav className="justify-content-end">
         <li className="nav-item">
-          <a
-            href="#about"
-            onClick={() => handlePageChange('About')}
-            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          <Link 
+            to="/"
+            className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
           >
             About
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a
-            href="#portfolio"
-            onClick={() => handlePageChange('Portfolio')}
+          <Link
+          to="/Portfolio"
+           
             // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
           >
             Portfolio
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a
-            href="#contact"
-            onClick={() => handlePageChange('Contact')}
+          <Link
+            to="/Contact"
             // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
           >
             Contact
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a
-            href="#resume"
-            onClick={() => handlePageChange('Resume')}
+          <Link
+            to="/Resume"
             // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
           >
             Resume
-          </a>
+          </Link>
         </li>
-       
-      </ul>
+      </Nav>
+      </>
+      
     );
   }
   
 export default Navigation;
+
