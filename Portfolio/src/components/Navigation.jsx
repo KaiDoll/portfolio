@@ -7,7 +7,7 @@ function Navigation () {
     return (
       <>
 
-      <Nav className="justify-content-end">
+      <Nav className="justify-content-center">
         <li className="nav-item">
           <Link 
             to="/"
