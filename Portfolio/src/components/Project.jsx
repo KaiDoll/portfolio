@@ -9,7 +9,7 @@ function Project(props) {
       <Card.Body>
         <Card.Title>Name: {props.name}</Card.Title>
         {/* <Card.Title>ID: {props.id}</Card.Title> */}
-        <Card.Text><b>Description: </b> {props.description}</Card.Text>
+        <Card.Text>Description: {props.description}</Card.Text>
         <Button variant="outline-dark">
           <a href= {props.gitLink}>Github</a></Button>
       </Card.Body>

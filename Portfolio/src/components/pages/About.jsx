@@ -8,7 +8,9 @@ export default function About() {
   return (
     <Container>
       <article className="py-5 text-center">
-        <h3><i>Full-Stack Developer-ish</i></h3>
+        <h3>
+          <i>Full-Stack Developer-ish</i>
+        </h3>
         <div className="text-center">
           <Image
             rounded
@@ -18,15 +20,25 @@ export default function About() {
             width="25%"
           />
         </div>
-        <p className="py-2"><i>
-          This is Kai Gurung-Doll, a recent UT Full Stack Developer Graduate 
-          and a continious Web Development learner</i>
-        </p>
-        <p className="py-2">
-          This is Kai Gurung-Doll. This is my ongoing work in progress
-          portfolio. I am new to coding and learning along the way as I am doing
-          the bootcamp in UTA! 
-        </p>
+
+        <ul className="py-3">
+          <li>
+            {" "}
+            <i>Welcome to my Portfolio webpage. This is Kai Gurung-Doll,</i>
+          </li>
+          <li>
+            {" "}
+            <i>
+              a recent UT Full Stack Developer Graduate and a continious Web
+              Development learner.{" "}
+            </i>{" "}
+          </li>   
+          <li> <i>From HTML & CSS to understanding frontend and backend application.</i></li>
+          <li> <i>There is still much to learn and a lot to do.</i></li>
+          <li>
+            <i>Here you will find my past projects and my ongoing project.</i>
+          </li>
+        </ul>
       </article>
     </Container>
   );

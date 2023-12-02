@@ -1,11 +1,12 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
 import resume from '../../../images/KanchanGurungDoll_Resume_2023.pdf'
 
 export default function Resume() {
   return (
     <div className= "py-5" >
-<a href={resume} download ="Resume"><button>
-Download My Resume</button>
+<a href={resume} download ="Resume"><Button variant="outline-dark">
+Download My Resume</Button>
 </a> 
 <h5 className= "py-3">Skills</h5>
 <ul> 
