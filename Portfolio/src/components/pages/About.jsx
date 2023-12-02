@@ -8,7 +8,7 @@ export default function About() {
   return (
     <Container>
       <article className="py-5 text-center">
-        <h3>Full-Stack Developer-ish</h3>
+        <h3><i>Full-Stack Developer-ish</i></h3>
         <div className="text-center">
           <Image
             rounded

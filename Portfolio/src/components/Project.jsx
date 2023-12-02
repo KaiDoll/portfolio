@@ -8,9 +8,9 @@ function Project(props) {
       <Card.Img variant="top" src={props.image} />
       <Card.Body>
         <Card.Title>Name: {props.name}</Card.Title>
-        <Card.Title>ID: {props.id}</Card.Title>
-        <Card.Text>Description: {props.description}</Card.Text>
-        <Button variant="primary">
+        {/* <Card.Title>ID: {props.id}</Card.Title> */}
+        <Card.Text><b>Description: </b> {props.description}</Card.Text>
+        <Button variant="outline-dark">
           <a href= {props.gitLink}>Github</a></Button>
       </Card.Body>
     </Card>
