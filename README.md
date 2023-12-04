@@ -27,13 +27,13 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Usage
 
-![About page](./Portfolio/images/Screenshot%202023-12-03%20110141.png)
+![About page](./images/Screenshot%202023-12-03%20110141.png)
 
-![Portfolio page with projects](./Portfolio/images/Screenshot%202023-12-03%20110247.png)
+![Portfolio page with projects](./images/Screenshot%202023-12-03%20110247.png)
 
-![Contact page](./Portfolio/images/Screenshot%202023-12-03%20110328.png)
+![Contact page](./images/Screenshot%202023-12-03%20110328.png)
 
-![Resume page](./Portfolio/images/Screenshot%202023-12-03%20110345.png)
+![Resume page](./images/Screenshot%202023-12-03%20110345.png)
 
 ## Technologies Used
 
