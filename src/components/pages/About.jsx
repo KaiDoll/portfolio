@@ -2,7 +2,7 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
-import "../../../src/App.css";
+import "../../App.css";
 
 export default function About() {
   return (
