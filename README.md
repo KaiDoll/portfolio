@@ -53,7 +53,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ### <a href="https://github.com/KaiDoll/portfolio">GitHub Repository</a>
 
-### <a href="https://drive.google.com/file/d/1lNu-sKDigtD2dQZ0Q3XPo7F4zEeURl1M/view?usp=sharing">Live Website</a>
+### <a href="https://luminous-kataifi-33c5a2.netlify.app/">Live Website</a>
 
 
 ## License
