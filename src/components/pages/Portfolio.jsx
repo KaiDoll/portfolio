@@ -46,11 +46,11 @@ const projects = [
   },
   {
     id: 6,
-    name: "Project 3",
+    name: "Stress-Free-Me",
     description: "Project in progress",
-    gitLink: "https://github.com/KaiDoll",
+    gitLink: "https://stress-free-me-v2-8f5d044f0542.herokuapp.com/",
     image:
-      "https://cdn.pixabay.com/photo/2023/11/14/15/46/nikon-8388022_1280.jpg",
+      "https://github.com/MAT-2/stress-free-me-v2/blob/main/assets/profile2.png",
   },
 ];
 
