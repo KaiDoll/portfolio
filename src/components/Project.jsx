@@ -15,7 +15,7 @@ function Project(props) {
         </div>
         <div>
           <Button variant="outline-dark">
-            <a href={props.gitLink}>Github</a>
+            <a href={props.gitLink}>Website</a>
           </Button>
         </div>
       </Card.Body>
