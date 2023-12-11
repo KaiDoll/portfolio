@@ -47,7 +47,7 @@ const projects = [
   {
     id: 6,
     name: "Stress-Free-Me",
-    description: "Project in progress",
+    description: "Stress-Free-Me-v2 with new updates",
     gitLink: "https://stress-free-me-v2-8f5d044f0542.herokuapp.com/",
     image:
       "https://github.com/MAT-2/stress-free-me-v2/blob/main/assets/profile2.png",
